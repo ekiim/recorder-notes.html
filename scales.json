@@ -1,0 +1,338 @@
+[
+    {
+        "name": "Acoustic scale or Lydian dominant scale",
+        "integers": [ 0, 2, 4, 6, 7, 9, 10 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Aeolian mode or natural minor scale",
+        "integers": [ 0, 2, 3, 5, 7, 8, 10 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Altered scale or Super Locrian scale",
+        "integers": [ 0, 1, 3, 4, 6, 8, 10 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Augmented scale",
+        "integers": [ 0, 3, 4, 7, 8, 11 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Bebop dominant scale",
+        "integers": [ 0, 2, 4, 5, 7, 9, 10, 11 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Blues scale",
+        "integers": [ 0, 3, 5, 6, 7, 10 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Chromatic scale",
+        "integers": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Dorian mode",
+        "integers": [ 0, 2, 3, 5, 7, 9, 10 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Double harmonic scale",
+        "integers": [ 0, 1, 4, 5, 7, 8, 11 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Enigmatic scale",
+        "integers": [ 0, 1, 4, 6, 8, 10, 11 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Flamenco mode",
+        "integers": [ 0, 1, 4, 5, 7, 8, 11 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Gypsy scale",
+        "integers": [ 0, 2, 3, 6, 7, 8, 10 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Half diminished scale",
+        "integers": [ 0, 2, 3, 5, 6, 8, 10 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Harmonic major scale",
+        "integers": [ 0, 2, 4, 5, 7, 8, 11 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Harmonic minor scale",
+        "integers": [ 0, 2, 3, 5, 7, 8, 11 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Hirajoshi scale",
+        "integers": [ 0, 4, 6, 7, 11 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Hungarian 'Gypsy' scale / Hungarian minor scale",
+        "integers": [ 0, 2, 3, 6, 7, 8, 11 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Hungarian major scale",
+        "integers": [ 0, 3, 4, 6, 7, 9, 10 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "In scale",
+        "integers": [ 0, 1, 5, 7, 8 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Insen scale",
+        "integers": [ 0, 1, 5, 7, 10 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Ionian mode or major scale",
+        "integers": [ 0, 2, 4, 5, 7, 9, 11 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Istrian scale",
+        "integers": [ 0, 1, 3, 4, 6, 7 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Iwato scale",
+        "integers": [ 0, 1, 5, 6, 10 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Locrian mode",
+        "integers": [ 0, 1, 3, 5, 6, 8, 10 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Lydian augmented scale",
+        "integers": [ 0, 2, 4, 6, 8, 9, 11 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Lydian diminished scale",
+        "integers": [ 0, 2, 3, 6, 7, 9, 11 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Lydian mode",
+        "integers": [ 0, 2, 4, 6, 7, 9, 11 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Major Locrian scale",
+        "integers": [ 0, 2, 4, 5, 6, 8, 10 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Major pentatonic scale",
+        "integers": [ 0, 2, 4, 7, 9 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Melodic minor scale ascending",
+        "integers": [ 0, 2, 3, 5, 7, 9, 11 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Melodic minor scale descending",
+        "integers": [ 0, 2, 3, 5, 7, 8, 10 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Melodic minor scale ascending",
+        "integers": [ 0, 2, 3, 5, 7, 9, 11 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Minor pentatonic scale",
+        "integers": [ 0, 3, 5, 7, 10 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Mixolydian mode or Adonai malakh mode",
+        "integers": [ 0, 2, 4, 5, 7, 9, 10 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Neapolitan major scale",
+        "integers": [ 0, 1, 3, 5, 7, 9, 11 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Neapolitan minor scale",
+        "integers": [ 0, 1, 3, 5, 7, 8, 11 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Octatonic scale 1",
+        "integers": [ 0, 2, 3, 5, 6, 8, 9, 11 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Octatonic scale 2",
+        "integers": [ 0, 1, 3, 4, 6, 7, 9, 10 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Persian scale",
+        "integers": [ 0, 1, 4, 5, 6, 8, 11 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Phrygian dominant scale",
+        "integers": [ 0, 1, 4, 5, 7, 8, 10 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Phrygian mode",
+        "integers": [ 0, 1, 3, 5, 7, 8, 10 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Prometheus scale",
+        "integers": [ 0, 2, 4, 6, 9, 10 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Scale of harmonics",
+        "integers": [ 0, 3, 4, 5, 7, 9 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Tritone scale",
+        "integers": [ 0, 1, 4, 6, 7, 10 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Two-semitone tritone scale",
+        "integers": [ 0, 1, 2, 6, 7, 8 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Ukrainian Dorian scale",
+        "integers": [ 0, 2, 3, 6, 7, 9, 10 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Whole tone scale",
+        "integers": [ 0, 2, 4, 6, 8, 10 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    },
+    {
+        "name": "Yo scale",
+        "integers": [ 0, 3, 5, 7, 10 ],
+        "comments": [
+            "Sample Comment"
+        ]
+    }
+]

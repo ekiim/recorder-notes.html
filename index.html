@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Recorder Notes</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <script src="https://cdn.jsdelivr.net/npm/vexflow@4.2.2/build/cjs/vexflow.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Recorder Notes</h1>
+    </header>
+    <main>
+        <article>
+            <section>
+                <fieldset>
+                    <legend>Tuning:</legend>
+                    <span>
+                        <input type="radio" name="tuning" id="tuning-c5" value="C5" checked />
+                        <label for="tuning-c5">C5 Sorpano</label>
+                    </span>
+                    <span>
+                        <input type="radio" name="tuning" id="tuning-f4" value="F4" />
+                        <label for="tuning-f4">F4 Alto</label>
+                    </span>
+                    <span>
+                        <input type="radio" name="tuning" id="tuning-c4" value="C4" />
+                        <label for="tuning-c4">C4 Tenor</label>
+                    </span>
+                    <span>
+                        <input type="radio" name="tuning" id="tuning-f3" value="F3" />
+                        <label for="tuning-f3">F3 Bass</label>
+                    </span>
+                </fieldset>
+                <fieldset>
+                    <legend>Flat/Sharp:</legend>
+                    <span>
+                        <input type="radio" name="tone-flat-sharp" id="tone-sharp" value="sharp" checked />
+                        <label for="tone-sharp">Sharp</label>
+                    </span>
+                    <span>
+                        <input type="radio" name="tone-flat-sharp" id="tone-flat" value="flat" />
+                        <label for="tone-flat">Flat</label>
+                    </span>
+                </fieldset>
+                <fieldset>
+                    <legend>Octaves:</legend>
+                    <span>
+                        <input type="checkbox" name="octave-low" checked />
+                        <label for="ocateve-low">Low</label>
+                    </span>
+                    <span>
+                        <input type="checkbox" name="octave-mid" checked />
+                        <label for="ocateve-mid">Mid</label>
+                    </span>
+                    <span>
+                        <input type="checkbox" name="octave-high" checked />
+                        <label for="ocateve-high">High</label>
+                    </span>
+                </fieldset>
+                <fieldset>
+                    <legend>Selection:</legend>
+                    <span>
+                        <input type="checkbox" name="selection-hide" />
+                        <label for="selection-hide">Hide Unselected</label>
+                    </span>
+                    <span>
+                        <input type="radio" name="selection-follow" id="selection-follow-position" value="position" />
+                        <label for="tone-sharp">Follow Position</label>
+                    </span>
+                    <span>
+                        <input type="radio" name="selection-follow" id="selection-follow-note" value="note" checked/>
+                        <label for="tone-flat">Follow Note</label>
+                    </span>
+                </fieldset>
+                <fieldset>
+                    <legend>Scale:</legend>
+                    <select name="scale-note"></select>
+                    <select name="scale-scale">
+                        <option value="" disabled selected>Select a scale</option>
+                    </select>
+                    <button name="scale-show">Select</button>
+                </fieldset>
+            </section>
+            </section>
+            <section id="vexflow">
+            </section>
+            <section id="scale-details">
+            </section>
+        </article>
+        <article>
+        <table>
+            <thead>
+                <tr><th></th><th colspan="9">Hole</th></tr>
+                <tr><th>Note</th><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td></tr>
+            </thead>
+            <tbody>
+                <tr data-octave="low" data-position="0" ><th>C5 </th><td>●</td><td>●</td><td>●</td><td>●</td><td>●</td><td>●</td><td>●</td><td>●</td><td>○</td></tr>
+                <tr data-octave="low" data-position="1" ><th>C♯5</th><td>●</td><td>●</td><td>●</td><td>●</td><td>●</td><td>●</td><td>●</td><td>◒</td><td>○</td></tr>
+                <tr data-octave="low" data-position="2" ><th>D5 </th><td>●</td><td>●</td><td>●</td><td>●</td><td>●</td><td>●</td><td>●</td><td>○</td><td>○</td></tr>
+                <tr data-octave="low" data-position="3" ><th>D♯5</th><td>●</td><td>●</td><td>●</td><td>●</td><td>●</td><td>●</td><td>◒</td><td>○</td><td>○</td></tr>
+                <tr data-octave="low" data-position="4" ><th>E5 </th><td>●</td><td>●</td><td>●</td><td>●</td><td>●</td><td>●</td><td>○</td><td>○</td><td>○</td></tr>
+                <tr data-octave="low" data-position="5" ><th>F5 </th><td>●</td><td>●</td><td>●</td><td>●</td><td>●</td><td>○</td><td>●</td><td>●</td><td>○</td></tr>
+                <tr data-octave="low" data-position="6" ><th>F♯5</th><td>●</td><td>●</td><td>●</td><td>●</td><td>○</td><td>●</td><td>●</td><td>○</td><td>○</td></tr>
+                <tr data-octave="low" data-position="7" ><th>G5 </th><td>●</td><td>●</td><td>●</td><td>●</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td></tr>
+                <tr data-octave="low" data-position="8" ><th>G♯5</th><td>●</td><td>●</td><td>●</td><td>○</td><td>●</td><td>●</td><td>◒</td><td>○</td><td>○</td></tr>
+                <tr data-octave="low" data-position="9" ><th>A6 </th><td>●</td><td>●</td><td>●</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td></tr>
+                <tr data-octave="low" data-position="10"><th>A♯6</th><td>●</td><td>●</td><td>○</td><td>●</td><td>●</td><td>○</td><td>○</td><td>○</td><td>○</td></tr>
+                <tr data-octave="low" data-position="11"><th>B6 </th><td>●</td><td>●</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td></tr>
+                <tr data-octave="low mid" data-position="12"><th>C6 </th><td>●</td><td>○</td><td>●</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td></tr>
+                <tr data-octave="mid" data-position="13"><th>C♯6</th><td>○</td><td>●</td><td>●</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td></tr>
+                <tr data-octave="mid" data-position="14"><th>D6 </th><td>○</td><td>○</td><td>●</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td></tr>
+                <tr data-octave="mid" data-position="15"><th>D♯6</th><td>○</td><td>○</td><td>●</td><td>●</td><td>●</td><td>●</td><td>●</td><td>○</td><td>○</td></tr>
+                <tr data-octave="mid" data-position="16"><th>E6 </th><td>◒</td><td>●</td><td>●</td><td>●</td><td>●</td><td>●</td><td>○</td><td>○</td><td>○</td></tr>
+                <tr data-octave="mid" data-position="17"><th>F6 </th><td>◒</td><td>●</td><td>●</td><td>●</td><td>●</td><td>○</td><td>●</td><td>○</td><td>○</td></tr>
+                <tr data-octave="mid" data-position="18"><th>F♯6</th><td>◒</td><td>●</td><td>●</td><td>●</td><td>○</td><td>●</td><td>○</td><td>○</td><td>○</td></tr>
+                <tr data-octave="mid" data-position="19"><th>G6 </th><td>◒</td><td>●</td><td>●</td><td>●</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td></tr>
+                <tr data-octave="mid" data-position="20"><th>G♯6</th><td>◒</td><td>●</td><td>●</td><td>○</td><td>●</td><td>○</td><td>○</td><td>○</td><td>○</td></tr>
+                <tr data-octave="mid" data-position="21"><th>A7 </th><td>◒</td><td>●</td><td>●</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td><td>○</td></tr>
+                <tr data-octave="mid" data-position="22"><th>A♯7</th><td>◒</td><td>●</td><td>●</td><td>○</td><td>●</td><td>●</td><td>●</td><td>○</td><td>○</td></tr>
+                <tr data-octave="mid" data-position="23"><th>B7 </th><td>◒</td><td>●</td><td>●</td><td>○</td><td>●</td><td>●</td><td>○</td><td>○</td><td>○</td></tr>
+                <tr data-octave="mid high" data-position="24"><th>C7 </th><td>◒</td><td>●</td><td>○</td><td>○</td><td>●</td><td>●</td><td>○</td><td>○</td><td>○</td></tr>
+                <tr data-octave="high" data-position="25"><th>C♯7</th><td>◒</td><td>●</td><td>○</td><td>●</td><td>●</td><td>○</td><td>●</td><td>●</td><td>●</td></tr>
+                <tr data-octave="high" data-position="26"><th>D7 </th><td>◒</td><td>●</td><td>○</td><td>●</td><td>●</td><td>○</td><td>●</td><td>●</td><td>○</td></tr>
+                <tr data-octave="high" data-position="27"><th>D♯7</th><td>◒</td><td>○</td><td>●</td><td>●</td><td>○</td><td>●</td><td>●</td><td>○</td><td>○</td></tr>
+                <tr data-octave="high" data-position="28"><th>E7 </th><td>◒</td><td>○</td><td>●</td><td>●</td><td>○</td><td>●</td><td>●</td><td>○</td><td>●</td></tr>
+                <tr data-octave="high" data-position="29"><th>F7 </th><td>◒</td><td>●</td><td>●</td><td>○</td><td>●</td><td>●</td><td>○</td><td>○</td><td>●</td></tr>
+                <tr data-octave="high" data-position="30"><th>F♯7</th><td>◒</td><td>●</td><td>●</td><td>○</td><td>●</td><td>●</td><td>○</td><td>○</td><td>○</td></tr>
+                <tr data-octave="high" data-position="31"><th>G7 </th><td>◒</td><td>●</td><td>○</td><td>○</td><td>●</td><td>○</td><td>○</td><td>○</td><td>○</td></tr>
+                <tr data-octave="high" data-position="32"><th>G♯7</th><td>◒</td><td>●</td><td>○</td><td>●</td><td>○</td><td>○</td><td>●</td><td>●</td><td>●</td></tr>
+                <tr data-octave="high" data-position="33"><th>A8 </th><td>◒</td><td>●</td><td>○</td><td>●</td><td>○</td><td>●</td><td>○</td><td>○</td><td>○</td></tr>
+            </tbody>
+        </table>
+        </article>
+    </main>
+    
+    <script src="/script.js"></script>
+    <!-- <script src="/main.js"></script>-->
+</body>
+
+</html>
